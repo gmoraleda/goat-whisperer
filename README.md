@@ -53,7 +53,7 @@ Backend runs at `http://localhost:3000`.
 1. Open `chrome://extensions`
 2. Enable Developer mode
 3. Click Load unpacked
-4. Select `/Users/gmoraleda/Developer/test-copilot/extension`
+4. Select `extension/` (from the cloned repository)
 5. Click the extension action to open the side panel
 
 ## 🧪 How to Use
