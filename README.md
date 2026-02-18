@@ -12,7 +12,7 @@ This project is tailored for quiz/test flows and can be used for tests on the Te
 
 ## 📸 Screenshot
 
-![Goat Whisperer on a Testlify question](assets/testlify-example-v2.png)
+![Goat Whisperer on a Testlify question](assets/testlify-example-v3.png)
 
 ## 🧱 Stack
 
