@@ -1,4 +1,4 @@
-# Goat Whisperer
+# 🐐 Goat Whisperer
 
 Goat Whisperer is a Chrome Extension (Manifest V3) + Node.js backend MVP that reads visible questions from the active tab, sends them to an LLM, and displays:
 
@@ -10,31 +10,31 @@ Goat Whisperer is a Chrome Extension (Manifest V3) + Node.js backend MVP that re
 
 This project is tailored for quiz/test flows and can be used for tests on the Testlify platform.
 
-## Stack
+## 🧱 Stack
 
 - Chrome Extension MV3 (TypeScript)
 - Node.js + Express (TypeScript)
 - OpenAI Responses API (`gpt-5-mini` by default)
 
-## Project Structure
+## 🗂️ Project Structure
 
 - `extension/` Chrome extension source + manifest + side panel UI
 - `backend/` API server with `POST /answer`
 
-## Prerequisites
+## ✅ Prerequisites
 
 - Node.js 20+
 - Google Chrome
 - OpenAI API key with active billing
 
-## Setup
+## ⚙️ Setup
 
 ```bash
 npm install
 npm run build
 ```
 
-## Run Backend
+## 🚀 Run Backend
 
 ```bash
 export OPENAI_API_KEY="your_key"
@@ -44,7 +44,7 @@ npm run start:backend
 
 Backend runs at `http://localhost:3000`.
 
-## Load Extension
+## 🧩 Load Extension
 
 1. Open `chrome://extensions`
 2. Enable Developer mode
@@ -52,16 +52,16 @@ Backend runs at `http://localhost:3000`.
 4. Select `/Users/gmoraleda/Developer/test-copilot/extension`
 5. Click the extension action to open the side panel
 
-## How to Use
+## 🧪 How to Use
 
 1. Open a Testlify question page (or any page with visible question/options)
 2. Open Goat Whisperer side panel
 3. Click `Answer questions`
 4. Review the output fields in the panel
 
-## API Contract
+## 🔌 API Contract
 
-### Request
+### 📥 Request
 
 ```json
 {
@@ -71,7 +71,7 @@ Backend runs at `http://localhost:3000`.
 }
 ```
 
-### Response
+### 📤 Response
 
 ```json
 {
@@ -81,7 +81,7 @@ Backend runs at `http://localhost:3000`.
 }
 ```
 
-## Notes
+## 📝 Notes
 
 - If no `OPENAI_API_KEY` is present, backend returns conservative mock output.
 - Extension reads only visible on-screen content.
