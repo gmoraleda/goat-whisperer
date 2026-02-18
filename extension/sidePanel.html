@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer Questions</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 12px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 12px;
+      }
+      .box {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+      }
+      .label {
+        font-size: 12px;
+        color: #555;
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="answerBtn">Answer questions</button>
+    <div class="label">Status</div>
+    <div id="status" class="box">Idle</div>
+    <div class="label">Question</div>
+    <div id="question" class="box">-</div>
+    <div class="label">Question Snippet</div>
+    <div id="snippet" class="box">-</div>
+    <div class="label">Options</div>
+    <div id="options" class="box">-</div>
+    <div class="label">Correct Option</div>
+    <div id="selectedOption" class="box">-</div>
+    <div class="label">Confidence</div>
+    <div id="confidence" class="box">-</div>
+    <script type="module" src="dist/sidePanel.js"></script>
+  </body>
+</html>

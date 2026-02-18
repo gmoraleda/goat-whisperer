@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Goat Whisperer",
+  "version": "0.1.0",
+  "description": "Extracts a visible question from the active tab and returns an AI answer.",
+  "permissions": ["activeTab", "scripting", "sidePanel", "tabs", "webNavigation"],
+  "host_permissions": [
+    "http://localhost:3000/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "dist/background.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "sidePanel.html"
+  },
+  "action": {
+    "default_title": "Goat Whisperer"
+  }
+}
