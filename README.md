@@ -10,6 +10,10 @@ Goat Whisperer is a Chrome Extension (Manifest V3) + Node.js backend MVP that re
 
 This project is tailored for quiz/test flows and can be used for tests on the Testlify platform.
 
+## 📸 Screenshot
+
+![Goat Whisperer on a Testlify question](assets/testlify-example.png)
+
 ## 🧱 Stack
 
 - Chrome Extension MV3 (TypeScript)
